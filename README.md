@@ -24,5 +24,5 @@ To run this app locally, you will need:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/calculator-app.git
+git clone https://github.com/tomer7X/MyCalculator-Android-App.git
 cd calculator-app
