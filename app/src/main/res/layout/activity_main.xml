@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="0.7"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/TextViewResult"
@@ -24,6 +24,17 @@
             android:gravity="center"
             android:text="Result"
             android:textColor="@color/white"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/textViewCurrentResult"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:text="Current_Result"
+            android:textColor="@android:color/darker_gray"
             android:textSize="32sp" />
     </LinearLayout>
 

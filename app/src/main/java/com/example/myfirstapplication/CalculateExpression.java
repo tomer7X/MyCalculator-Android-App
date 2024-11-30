@@ -10,7 +10,7 @@ public class CalculateExpression {
         return calculateExpression(nums, opers);
     }
 
-    public static double calculateExpression(double[] nums, char[] ops) {
+    public static Double calculateExpression(double[] nums, char[] ops) {
         // Stack for numbers
         Stack<Double> numStack = new Stack<>();
         // Stack for operators (only '+', '-')
@@ -25,6 +25,7 @@ public class CalculateExpression {
                 // Perform multiplication or division immediately
                 double num = numStack.pop();
                 double nextNum = nums[i + 1];
+                if(nextNum == 0 && op == '/') return null;
                 double result = (op == '*') ? num * nextNum : num / nextNum;
                 numStack.push(result);
             } else {
