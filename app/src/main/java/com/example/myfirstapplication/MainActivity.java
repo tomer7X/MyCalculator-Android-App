@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         });
         result = findViewById(R.id.TextViewResult);
         result.setText("");
-
+        System.out.println(CalculateExpression.finalCalc("1+5+6"));
 
 
 
@@ -182,4 +182,6 @@ public class MainActivity extends AppCompatActivity {
         num = output; // Store the result for chaining operations
         result.setText(maybeInteger(String.valueOf(output))); // Display the result
     }
+
+
 }
