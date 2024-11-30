@@ -1,5 +1,8 @@
 # Calculator App
 ![image](https://github.com/user-attachments/assets/906fc78b-542b-456a-a9a6-776763aed63a)
+
+
+
 This is a simple yet powerful **Calculator App** built with Java, designed to perform basic arithmetic operations like addition, subtraction, multiplication, and division. The app evaluates expressions and respects operator precedence, ensuring the correct order of operations.
 
 ## Features
